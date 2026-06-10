@@ -23,6 +23,16 @@ import Observation
 /// ```
 public protocol Routable: Hashable, Identifiable, Sendable {}
 
+public extension Routable {
+    static func == (lhs: Self, rhs: Self) -> Bool {
+        lhs.id == rhs.id
+    }
+
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
+    }
+}
+
 @Observable
 @MainActor
 public final class Router<Route: Routable> {
