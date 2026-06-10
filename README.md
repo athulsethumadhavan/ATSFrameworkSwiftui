@@ -1,16 +1,16 @@
 # ATSFrameworkSwiftui
 
-Modular Swift package for SwiftUI apps. iOS 17+ / macOS 14+, Swift 5.9.
+Modular Swift package for SwiftUI apps. iOS 17+ / macOS 14+
 
 ## Products
 
 | Product | What's inside |
 |---|---|
 | `Networking` | `WebService` (async/await URLSession), `Endpoint` builder, `NetworkError`, interceptors (bearer token, logging) |
-| `Navigation` | `Router` (@Observable), `RouterView` (NavigationStack + sheet + fullScreenCover), `DeepLinkHandler` |
+| `Navigation` | `Router` (@Observable), `RouterView` (NavigationStack + sheet + fullScreenCover) |
 | `Storage` | `@UserDefault` property wrapper, `KeychainStore` |
-| `UIComponents` | `Shapes` |
-| `CoreUtilities` | `LoadingState<T>`, `Debouncer`, common extensions |
+| `UIComponents` | `Shapes` (CustomCorner, DashedLine, Border) |
+| `CoreUtilities` | `Debouncer`, common extensions |
 
 ## Installation
 
