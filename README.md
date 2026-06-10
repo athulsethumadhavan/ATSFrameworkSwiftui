@@ -15,4 +15,5 @@ Modular Swift package for SwiftUI apps. iOS 17+ / macOS 14+, Swift 5.9.
 ## Installation
 
 Xcode → File → Add Package Dependencies → GitHub → Search "https://github.com/athulsethumadhavan/ATSFrameworkSwiftui.git".
+
 Then add the products you need to your app target.
